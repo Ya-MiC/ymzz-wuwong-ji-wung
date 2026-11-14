@@ -29,7 +29,22 @@ Tauri 2 + Rust + Vue 3 + TypeScript。本地優先，離線可用，預設不連
 
 子智能體學習之前人類用戶說過的、以及 codex/cc 之間學過的東西，全部應能互相直接接觸和梳理清楚。
 
+## 開發指令
+```bash
+# 安裝依賴
+npm install
+
+# 開發模式（前端 Vite + Tauri）
+npm run dev
+
+# 建置生產版本
+npm run build
+
+# Tauri 打包
+npm run tauri build
+```
+
 ## 檔案放置
 - 研究產出 → docs/
-- 程式碼 → src/ 與 src-tauri/
+- 程式碼 → src/（前端 Vue）與 src-tauri/（後端 Rust）
 - 設計 tokens → design/（引用溫潤設計系統）
